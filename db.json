@@ -2,12 +2,12 @@
   "footerData": 
     [
         {
-          "content": [
-            { "image": "footerLogoOne", "text": "4.5/5 rating on Lorem" },
-            { "image": "footerLogoTwo", "text": "9/10 rating on Ipsum" },
-            { "image": "footerLogoThree", "text": "4.5/5 Rating on dorel" }
-          ]
-        },
+            "content": [
+              { "image": "footer-logo-one.png", "text": "4.5/5 rating on Lorem" },
+              { "image": "footer-logo-two.png", "text": "9/10 rating on Ipsum" },
+              { "image": "footer-logo-three.png", "text": "4.5/5 Rating on dorel" }
+            ]
+          },
         {
           "content": [
             {
