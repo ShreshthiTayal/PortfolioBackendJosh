@@ -1,0 +1,42 @@
+{
+  "footerData": 
+    [
+        {
+          "content": [
+            { "image": "footerLogoOne", "text": "4.5/5 rating on Lorem" },
+            { "image": "footerLogoTwo", "text": "9/10 rating on Ipsum" },
+            { "image": "footerLogoThree", "text": "4.5/5 Rating on dorel" }
+          ]
+        },
+        {
+          "content": [
+            {
+              "header": "Quick Links",
+              "links": ["Home", "Skills", "Education", "Projects", "Recommendations"]
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "header": "Portfolio",
+              "links": [
+                "Frontend Development",
+                "Backend Development",
+                "Website Design",
+                "Machine Learning",
+                "Problem Solving & DSA"
+              ]
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "header": "Connect",
+              "logos": ["FaLinkedin", "FaInstagramSquare", "FaFacebookSquare"]
+            }
+          ]
+        }
+      ]
+}
