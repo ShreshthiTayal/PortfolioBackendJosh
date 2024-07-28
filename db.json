@@ -188,7 +188,18 @@
     "headings": [
       { "id": "1", "title": "Home", "path": "/" },
       { "id": "2", "title": "Skills", "path": "/skills" },
-      { "id": "3", "title": "Education", "path": "/education" },
+      { "id": "3", "title": "Education", "path": "/" },
+      { "id": "4", "title": "Projects", "path": "#projects" },
+      { "id": "5", "title": "Recommendations", "path": "#recommendations" },
+      { "id": "6", "title": "Contact", "path": "#contact" }
+    ]
+  },
+  "navbarSkill": {
+    "logoUrl": "/images/Rectangle_181.png",
+    "headings": [
+      { "id": "1", "title": "Home", "path": "/" },
+      { "id": "2", "title": "Skills", "path": "/skills" },
+      { "id": "3", "title": "Education", "path": "/" },
       { "id": "4", "title": "Projects", "path": "/projects" },
       { "id": "5", "title": "Recommendations", "path": "/recommendations" },
       { "id": "6", "title": "Contact", "path": "/contact" }
