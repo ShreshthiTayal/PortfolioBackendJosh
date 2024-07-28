@@ -177,12 +177,13 @@
       }
     ]
   },
-  "hero": {
-    "title": "I'm Rayan Adlrdard",
-    "subtitle": "Front-end Developer",
-    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam exercitationem nobis maxime nesciunt tempore ullam cupiditate dolores iusto nemo sapiente est.",
-    "buttonText": "Hire Me"
-  },
+    "hero": {
+      "title": "I'm Rayan Adlrdard",
+      "subtitle": "Front-end",
+      "role": "Developer",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam exercitationem nobis maxime nesciunt tempore ullam cupiditate dolores iusto nemo sapiente est.",
+      "buttonText": "HIRE ME"
+    },
   "navbar": {
     "logoUrl": "/images/Rectangle_181.png",
     "headings": [
@@ -199,6 +200,30 @@
     "description": "Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum",
     "buttonText": "ADD SKILL",
     "sections": [
+      {
+        "sectionTitle": "Front End Development",
+        "skills": [
+          { "skill": "HTML", "level": 90 },
+          { "skill": "CSS", "level": 85 },
+          { "skill": "JS", "level": 80 },
+          { "skill": "PHP", "level": 75 },
+          { "skill": "WordPress", "level": 85 }
+        ]
+      },
+      {
+        "sectionTitle": "Languages",
+        "skills": [
+          { "skill": "Hindi", "level": 90 },
+          { "skill": "English", "level": 85 }
+        ]
+      },
+      {
+        "sectionTitle": "Back End Development",
+        "skills": [
+          { "skill": "NodeJS", "level": 90 },
+          { "skill": "SSR", "level": 85 }
+        ]
+      },
       {
         "sectionTitle": "Front End Development",
         "skills": [
