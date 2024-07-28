@@ -1,42 +1,228 @@
 {
-  "footerData": 
-    [
+  "footerData": [
+    {
+      "content": [
+        { "image": "footer-logo-one.png", "text": "4.5/5 rating on Lorem" },
+        { "image": "footer-logo-two.png", "text": "9/10 rating on Ipsum" },
+        { "image": "footer-logo-three.png", "text": "4.5/5 Rating on dorel" }
+      ]
+    },
+    {
+      "content": [
         {
-            "content": [
-              { "image": "footer-logo-one.png", "text": "4.5/5 rating on Lorem" },
-              { "image": "footer-logo-two.png", "text": "9/10 rating on Ipsum" },
-              { "image": "footer-logo-three.png", "text": "4.5/5 Rating on dorel" }
-            ]
-          },
-        {
-          "content": [
-            {
-              "header": "Quick Links",
-              "links": ["Home", "Skills", "Education", "Projects", "Recommendations"]
-            }
-          ]
-        },
-        {
-          "content": [
-            {
-              "header": "Portfolio",
-              "links": [
-                "Frontend Development",
-                "Backend Development",
-                "Website Design",
-                "Machine Learning",
-                "Problem Solving & DSA"
-              ]
-            }
-          ]
-        },
-        {
-          "content": [
-            {
-              "header": "Connect",
-              "logos": ["FaLinkedin", "FaInstagramSquare", "FaFacebookSquare"]
-            }
+          "header": "Quick Links",
+          "links": [
+            "Home",
+            "Skills",
+            "Education",
+            "Projects",
+            "Recommendations"
           ]
         }
       ]
+    },
+    {
+      "content": [
+        {
+          "header": "Portfolio",
+          "links": [
+            "Frontend Development",
+            "Backend Development",
+            "Website Design",
+            "Machine Learning",
+            "Problem Solving & DSA"
+          ]
+        }
+      ]
+    },
+    {
+      "content": [
+        {
+          "header": "Connect",
+          "logos": ["FaLinkedin", "FaInstagramSquare", "FaFacebookSquare"]
+        }
+      ]
+    }
+  ],
+  "formData": [
+    { "type": "title", "text": "Leave ME Your Info" },
+    {
+      "type": "text",
+      "label": "Your Full Name (Required)",
+      "name": "fullname"
+    },
+    { "type": "email", "label": "Your Email (Required)", "name": "email" },
+    { "type": "text", "label": "Subject", "name": "subject" },
+    { "type": "textarea", "label": "Your Message", "name": "message" },
+    { "type": "button", "text": "SEND MESSAGE" }
+  ],
+  "contactData": [
+    {
+      "icon": "location.png",
+      "fields": [
+        { "label": "Country", "value": "Bangladesh" },
+        { "label": "City", "value": "Dhaka" },
+        { "label": "Street", "value": "35 Vhatara, Badda" }
+      ]
+    },
+    {
+      "icon": "mail.png",
+      "fields": [
+        { "label": "Email:", "value": "Youremail@Gmail.Com" },
+        { "label": "Skype", "value": "@Yourusername" },
+        { "label": "Telegram", "value": "@Yourusername" }
+      ]
+    },
+    {
+      "icon": "Mobile.png",
+      "fields": [
+        { "label": "Support Services:", "value": "15369" },
+        { "label": "Office:", "value": "+58 (021)356 587 235" },
+        { "label": "Personal:", "value": "+58 (021)356 587 235" }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec1",
+      "ratingUrl": "Rating.png",
+      "heading": "Amazing work!",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+      "profileUrl": "profile1.png",
+      "name": "Tiana Philips",
+      "designation": "Photographer"
+    },
+    {
+      "id": "rec2",
+      "ratingUrl": "Rating.png",
+      "heading": "Great Quality!",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+      "profileUrl": "profile2.png",
+      "name": "James Gouse",
+      "designation": "Graphic Designer"
+    },
+    {
+      "id": "rec3",
+      "ratingUrl": "Rating.png",
+      "heading": "Amazing work!",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+      "profileUrl": "profile1.png",
+      "name": "Tiana Philips",
+      "designation": "Photographer"
+    },
+    {
+      "id": "rec4",
+      "ratingUrl": "Rating.png",
+      "heading": "Great Quality!",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+      "profileUrl": "profile4.png",
+      "name": "Talan Westervelt",
+      "designation": "Business man"
+    },
+    {
+      "id": "rec5",
+      "ratingUrl": "Rating.png",
+      "heading": "Great Quality!",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+      "profileUrl": "profile2.png",
+      "name": "James Gouse",
+      "designation": "Graphic Designer"
+    }
+  ],
+  "projects": {
+    "title": "Projects",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam minus itaque, iste qui cumque sunt minima vero modi aut nulla alias velit omnis, atque sint architecto, quibusdam rerum quia molestiae.",
+    "projects": [
+      {
+        "id": "card1",
+        "url": "card1.png",
+        "heading": "How to make Flyer Design",
+        "desc": "Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...",
+        "tags": ["Typescript", "ReactJs", "NextJs", "CSS", "HTML", "MongoDB"]
+      },
+      {
+        "id": "card2",
+        "url": "card2.png",
+        "heading": "How to make Flyer Design",
+        "desc": "Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...",
+        "tags": ["Typescript", "ReactJs", "NextJs", "CSS"]
+      },
+      {
+        "id": "card3",
+        "url": "card3.png",
+        "heading": "How to make Flyer Design",
+        "desc": "Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...",
+        "tags": ["Typescript", "ReactJs", "NextJs", "CSS", "HTML", "MongoDB"]
+      },
+      {
+        "id": "card4",
+        "url": "card4.png",
+        "heading": "How to make Flyer Design",
+        "desc": "Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...",
+        "tags": ["Typescript", "ReactJs", "NextJs", "CSS", "HTML", "MongoDB"]
+      },
+      {
+        "id": "card5",
+        "url": "card5.png",
+        "heading": "How to make Flyer Design",
+        "desc": "Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...",
+        "tags": ["Typescript", "ReactJs", "NextJs", "CSS", "HTML", "MongoDB"]
+      },
+      {
+        "id": "card6",
+        "url": "card6.png",
+        "heading": "How to make Flyer Design",
+        "desc": "Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...",
+        "tags": ["Typescript", "ReactJs", "NextJs", "CSS", "HTML", "MongoDB"]
+      }
+    ]
+  },
+  "hero": {
+    "title": "I'm Shreshti Tayal",
+    "subtitle": "Front-end Developer",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam exercitationem nobis maxime nesciunt tempore ullam cupiditate dolores iusto nemo sapiente est.",
+    "buttonText": "Hire Me"
+  },
+  "navbar": {
+    "logoUrl": "/images/Rectangle_181.png",
+    "headings": [
+      { "id": "1", "title": "Home", "path": "/" },
+      { "id": "2", "title": "Skills", "path": "/skills" },
+      { "id": "3", "title": "Education", "path": "/education" },
+      { "id": "4", "title": "Projects", "path": "/projects" },
+      { "id": "5", "title": "Recommendations", "path": "/recommendations" },
+      { "id": "6", "title": "Contact", "path": "/contact" }
+    ]
+  },
+  "skills": {
+    "title": "Skills & Languages",
+    "description": "Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum",
+    "buttonText": "ADD SKILL",
+    "sections": [
+      {
+        "sectionTitle": "Front End Development",
+        "skills": [
+          { "skill": "HTML", "level": 90 },
+          { "skill": "CSS", "level": 85 },
+          { "skill": "JS", "level": 80 },
+          { "skill": "PHP", "level": 75 },
+          { "skill": "WordPress", "level": 85 }
+        ]
+      },
+      {
+        "sectionTitle": "Languages",
+        "skills": [
+          { "skill": "Hindi", "level": 90 },
+          { "skill": "English", "level": 85 }
+        ]
+      },
+      {
+        "sectionTitle": "Back End Development",
+        "skills": [
+          { "skill": "NodeJS", "level": 90 },
+          { "skill": "SSR", "level": 85 }
+        ]
+      }
+    ]
+  }
 }
